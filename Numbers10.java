@@ -11,5 +11,10 @@ public class Numbers10 {
             System.out.println(Arrays.toString(myNumbers[i]));
             System.out.println("panjang baris ke-" + (i + 1) + " : " + myNumbers[i].length);
         }
+        for (int i = 0; i < myNumbers.length; i++) {
+            myNumbers[i] = new int[4];
+            System.out.println("setelah diubah panjang baris ke-" + (i + 1) + " : " + myNumbers[i].length);
+        }
+
     }
 }
