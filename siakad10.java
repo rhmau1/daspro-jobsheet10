@@ -16,12 +16,12 @@ public class siakad10 {
         }
         System.out.println("\n================");
         System.out.println("rata-rata nilai setiap mata kuliah: ");
-        for (int j = 0; j < 3; j++) {
+        for (int j = 0; j < nilai[0].length; j++) {
             double totalPermatkul = 0;
-            for (int i = 0; i < 4; i++) {
+            for (int i = 0; i < nilai.length; i++) {
                 totalPermatkul += nilai[i][j];
             }
-            System.out.println("mata kuliah ke-" + (j + 1) + " : " + totalPermatkul / 4);
+            System.out.println("mata kuliah ke-" + (j + 1) + " : " + totalPermatkul / nilai.length);
         }
     }
 }
