@@ -36,10 +36,12 @@ public class Bioskop10 {
         System.out.println("penonton pada baris ke-3: ");
         // print nama penonton pada baris ke-3 menggunakan for loop
         for (int i = 0; i < penonton[2].length; i++) {
+            // penonton[2][1] = "ganti dengan for loop";
             System.out.println(penonton[2][i]);
         }
         // print nama penonton pada baris ke-3 menggunakan for each
         for (String i : penonton[2]) {
+            // i = "ganti dengan foreach";
             System.out.println(i);
         }
 
